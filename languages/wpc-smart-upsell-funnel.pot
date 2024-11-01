@@ -1,0 +1,725 @@
+# Copyright (C) 2024 WPClever
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Smart Upsell Funnel for WooCommerce 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-smart-upsell-funnel\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-30T09:16:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpc-smart-upsell-funnel\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Smart Upsell Funnel for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Suggest additional products and offer discounts to customers on the checkout page with flexible and smart conditions."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:213
+#: wpc-smart-upsell-funnel.php:223
+msgid "WPC Smart Upsell Funnel"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:213
+msgid "Smart Upsell Funnel"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:223
+msgid "Premium"
+msgstr ""
+
+#. translators: stars
+#: wpc-smart-upsell-funnel.php:226
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:228
+msgid "Reviews"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:229
+msgid "Changelog"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:230
+msgid "Discussion"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:235
+msgid "Settings updated."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:241
+#: wpc-smart-upsell-funnel.php:1815
+msgid "Settings"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:244
+#: wpc-smart-upsell-funnel.php:281
+#: wpc-smart-upsell-funnel.php:1816
+msgid "Upsell Funnel"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:247
+#: wpc-smart-upsell-funnel.php:380
+#: wpc-smart-upsell-funnel.php:1817
+msgid "Order Bump"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:250
+#: wpc-smart-upsell-funnel.php:1818
+msgid "Premium Version"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:253
+msgid "Essential Kit"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:285
+msgid "Position on cart page"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:288
+msgid "Before cart"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:289
+msgid "After cart table"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:290
+msgid "Before totals"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:291
+msgid "After cart"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:292
+#: wpc-smart-upsell-funnel.php:306
+#: wpc-smart-upsell-funnel.php:393
+msgid "None (hide it)"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:294
+#: wpc-smart-upsell-funnel.php:308
+msgid "You also can use shortcode [wpcuf_uf] to place it where you want."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:298
+#: wpc-smart-upsell-funnel.php:384
+msgid "Position on checkout page"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:301
+#: wpc-smart-upsell-funnel.php:387
+msgid "Before checkout form"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:302
+#: wpc-smart-upsell-funnel.php:388
+msgid "Before order details"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:303
+#: wpc-smart-upsell-funnel.php:389
+msgid "After customer details"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:304
+#: wpc-smart-upsell-funnel.php:390
+msgid "Before order review"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:305
+#: wpc-smart-upsell-funnel.php:392
+msgid "After checkout form"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:312
+msgid "Heading"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:315
+#: wpc-smart-upsell-funnel.php:1476
+msgid "Hang on! Maybe you don't want to miss this deal:"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:317
+#: wpc-smart-upsell-funnel.php:375
+#: wpc-smart-upsell-funnel.php:404
+#: wpc-smart-upsell-funnel.php:413
+msgid "Leave blank to use the default text and its equivalent translation in multiple languages."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:321
+msgid "Variations selector"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:324
+#: wpc-smart-upsell-funnel.php:336
+#: wpc-smart-upsell-funnel.php:420
+#: wpc-smart-upsell-funnel.php:976
+#: wpc-smart-upsell-funnel.php:988
+msgid "Default"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:325
+msgid "Use WPC Variations Radio Buttons"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:333
+msgid "Products order"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:337
+msgid "Original price: low to high"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:338
+msgid "Original price: high to low"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:339
+msgid "New price: low to high"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:340
+msgid "New price: high to low"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:341
+msgid "Saved amount: low to high"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:342
+msgid "Saved amount: high to low"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:343
+msgid "Saved percentage: low to high"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:344
+msgid "Saved percentage: high to low"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:349
+msgid "Products limit"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:352
+msgid "Maximum products will be shown."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:356
+#: wpc-smart-upsell-funnel.php:461
+msgid "Link to individual product"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:359
+msgid "Yes, open in the same tab"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:360
+#: wpc-smart-upsell-funnel.php:464
+msgid "Yes, open in the new tab"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:361
+#: wpc-smart-upsell-funnel.php:465
+msgid "Yes, open quick view popup"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:362
+#: wpc-smart-upsell-funnel.php:438
+#: wpc-smart-upsell-funnel.php:447
+#: wpc-smart-upsell-funnel.php:456
+#: wpc-smart-upsell-funnel.php:466
+msgid "No"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:370
+#: wpc-smart-upsell-funnel.php:373
+#: wpc-smart-upsell-funnel.php:1480
+msgid "Add to cart"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:391
+msgid "After order review"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:395
+msgid "You also can use shortcode [wpcuf_ob] to place it where you want."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:399
+msgid "Checkbox label"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:402
+#: wpc-smart-upsell-funnel.php:1721
+msgid "Yes, add it in!"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:408
+msgid "Promotion text"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:411
+#: wpc-smart-upsell-funnel.php:1725
+msgid "We've got something special for you!"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:417
+msgid "Product selection"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:421
+msgid "Original price: lowest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:422
+msgid "Original price: highest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:423
+msgid "New price: lowest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:424
+msgid "New price: highest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:425
+msgid "Saved amount: lowest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:426
+msgid "Saved amount: highest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:427
+msgid "Saved percentage: lowest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:428
+msgid "Saved percentage: highest"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:430
+msgid "Criteria for picking a single product."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:434
+msgid "Show product image"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:437
+#: wpc-smart-upsell-funnel.php:446
+#: wpc-smart-upsell-funnel.php:455
+msgid "Yes"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:443
+msgid "Show product name"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:452
+msgid "Show product description"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:672
+msgid "+ Add rule"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:674
+msgid "Expand All"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:676
+msgid "Collapse All"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:680
+msgid "Remember to save current rules before exporting to get the latest version."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:680
+msgid "Import/Export"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:712
+msgid "Update"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:713
+msgid "* All current rules will be replaced after pressing Update!"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:838
+msgid "duplicate"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:839
+msgid "remove"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:844
+#: wpc-smart-upsell-funnel.php:979
+msgid "Name"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:848
+msgid "For management only."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:853
+msgid "Applicable conditions"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:859
+msgid "Time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:866
+msgid "Configure date and time that must match all listed conditions."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:880
+msgid "+ Add time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:887
+msgid "User roles"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:894
+msgid "Specify the user roles that are applied."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:899
+msgid "All"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:900
+msgid "User (logged in)"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:901
+msgid "Guest (not logged in)"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:913
+msgid "Order bump products"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:915
+msgid "Upsell products"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:921
+msgid "New price"
+msgstr ""
+
+#. translators: percentage symbol
+#: wpc-smart-upsell-funnel.php:924
+msgid "Percentage (%s)"
+msgstr ""
+
+#. translators: currency symbol
+#: wpc-smart-upsell-funnel.php:925
+msgid "Fixed (%s)"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:940
+#: wpc-smart-upsell-funnel.php:980
+msgid "Type"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:942
+msgid "Source"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:948
+msgid "None (Disable)"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:950
+#: wpc-smart-upsell-funnel.php:1022
+msgid "Combined"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:952
+#: wpc-smart-upsell-funnel.php:1080
+msgid "Cart subtotal"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:953
+#: wpc-smart-upsell-funnel.php:1081
+msgid "Cart total"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:954
+#: wpc-smart-upsell-funnel.php:1082
+msgid "Cart count"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:955
+#: wpc-smart-upsell-funnel.php:1083
+msgid "Cart contains"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:957
+msgid "Any products"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:958
+msgid "Selected products"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:973
+msgid "Limit"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:975
+msgid "Order by"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:977
+msgid "None"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:978
+msgid "ID"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:981
+msgid "Rand"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:982
+msgid "Date"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:983
+msgid "Price"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:984
+msgid "Modified"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:987
+msgid "Order"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:989
+msgid "DESC"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:990
+msgid "ASC"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:995
+#: wpc-smart-upsell-funnel.php:1113
+msgid "equal"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:996
+#: wpc-smart-upsell-funnel.php:1114
+msgid "not equal"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:997
+#: wpc-smart-upsell-funnel.php:1115
+msgid "greater"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:998
+#: wpc-smart-upsell-funnel.php:1116
+msgid "less than"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:999
+#: wpc-smart-upsell-funnel.php:1117
+msgid "greater or equal"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1000
+#: wpc-smart-upsell-funnel.php:1118
+msgid "less or equal"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1006
+msgid "Products"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1008
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1025
+msgid "* Configure to find products that match all listed conditions."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1035
+msgid "+ Add condition"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1040
+msgid "Terms"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1076
+msgid "Product price"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1097
+msgid "including"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1098
+msgid "excluding"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1181
+msgid "Choose the time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1182
+msgid "On the date"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1183
+msgid "Before date & time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1184
+msgid "After date & time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1185
+msgid "Before date"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1186
+msgid "After date"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1187
+msgid "Multiple dates"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1188
+msgid "Date range"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1189
+msgid "All even dates"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1190
+msgid "All odd dates"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1191
+msgid "Daily time range"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1192
+msgid "Daily before time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1193
+msgid "Daily after time"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1194
+msgid "Weekly on every"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1195
+msgid "All even weeks"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1196
+msgid "All odd weeks"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1197
+msgid "On week No."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1198
+msgid "Monthly on the"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1199
+msgid "On month No."
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1200
+msgid "Everyday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1233
+msgid "Monday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1234
+msgid "Tuesday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1235
+msgid "Wednesday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1236
+msgid "Thursday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1237
+msgid "Friday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1238
+msgid "Saturday"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1239
+msgid "Sunday"
+msgstr ""
+
+#. translators: attribute name
+#: wpc-smart-upsell-funnel.php:1560
+msgid "Choose %s"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1567
+msgid "Clear"
+msgstr ""
+
+#: wpc-smart-upsell-funnel.php:1834
+msgid "Community support"
+msgstr ""

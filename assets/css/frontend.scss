@@ -1,0 +1,304 @@
+@keyframes wpcuf-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes wpcuf-spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.wpcuf-uf-wrap {
+  position: relative;
+
+  &.wpcuf-uf-wrap-loading {
+    pointer-events: none;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, .7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 10;
+      display: block;
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      margin-left: -15px;
+      border-width: 4px;
+      border-style: solid;
+      border-radius: 100%;
+      border-top-color: rgba(0, 0, 0, .5);
+      border-left-color: rgba(0, 0, 0, .1);
+      border-bottom-color: rgba(0, 0, 0, .1);
+      border-right-color: rgba(0, 0, 0, .1);
+      animation: wpcuf-spinner 1s linear infinite;
+      -webkit-animation: wpcuf-spinner 1s linear infinite;
+    }
+  }
+
+  .wpcuf-uf-header {
+    margin-bottom: 20px;
+
+    .wpcuf-uf-heading {
+      font-weight: 700;
+      font-size: 20px;
+      color: #222222;
+    }
+  }
+
+  .wpcuf-uf-products {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+
+    .wpcuf-uf-product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      width: 240px;
+      min-width: 240px;
+      padding: 10px;
+      border: 1px solid transparent;
+      position: relative;
+
+      .wpcuf-uf-product-atc {
+        cursor: pointer;
+        display: block;
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+        text-align: center;
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+        font-size: 0;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        .wpcuf-uf-product-add {
+          width: 30px;
+          height: 30px;
+          display: block;
+
+          &:after {
+            width: 30px;
+            height: 30px;
+            display: block;
+            content: '';
+            background-image: url('../images/add.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+
+      &:hover {
+        border-color: green;
+
+        .wpcuf-uf-product-atc {
+          background-color: green;
+          border-color: green;
+
+          .wpcuf-uf-product-add {
+            &:after {
+              background-image: url('../images/add_light.svg');
+            }
+          }
+        }
+      }
+
+      &.wpcuf-uf-product-loading {
+        .wpcuf-uf-product-add {
+          &:after {
+            background-image: url('../images/curve.svg');
+            -webkit-animation: wpcuf-spinner 1s linear infinite;
+            -moz-animation: wpcuf-spinner 1s linear infinite;
+            -ms-animation: wpcuf-spinner 1s linear infinite;
+            -o-animation: wpcuf-spinner 1s linear infinite;
+            animation: wpcuf-spinner 1s linear infinite;
+          }
+        }
+
+        &:hover {
+          .wpcuf-uf-product-atc {
+            background-color: green;
+            border-color: green;
+
+            .wpcuf-uf-product-add {
+              &:after {
+                background-image: url('../images/curve_light.svg');
+              }
+            }
+          }
+        }
+      }
+
+      &.wpcuf-uf-product-disabled {
+        .wpcuf-uf-product-atc {
+          opacity: .5;
+          cursor: not-allowed;
+        }
+      }
+
+      .added_to_cart {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.wpcuf-ob-wrap {
+  margin-bottom: 30px;
+  position: relative;
+
+  &.wpcuf-ob-wrap-loading {
+    pointer-events: none;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, .7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 10;
+      display: block;
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      margin-left: -15px;
+      border-width: 4px;
+      border-style: solid;
+      border-radius: 100%;
+      border-top-color: rgba(0, 0, 0, .5);
+      border-left-color: rgba(0, 0, 0, .1);
+      border-bottom-color: rgba(0, 0, 0, .1);
+      border-right-color: rgba(0, 0, 0, .1);
+      animation: wpcuf-spinner 1s linear infinite;
+      -webkit-animation: wpcuf-spinner 1s linear infinite;
+    }
+  }
+
+  .wpcuf-ob-inner {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #dddddd;
+    padding: 10px;
+
+    .wpcuf-ob-header {
+      position: relative;
+      color: #ffffff;
+      background-color: #00CBB4;
+      padding: 4px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        border-left: 4px solid #00CBB4;
+        border-top: 4px solid #00CBB4;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+      }
+
+      .wpcuf-ob-checkbox {
+        cursor: pointer;
+
+        .wpcuf-ob-checkbox-input {
+          margin-right: 10px;
+        }
+
+        .wpcuf-ob-checkbox-label {
+          font-weight: 500;
+        }
+      }
+    }
+
+    .wpcuf-ob-content {
+      margin-top: 10px;
+
+      .wpcuf-ob-product {
+        display: flex;
+
+        .wpcuf-ob-product-image {
+          width: 40%;
+          flex: 0 0 40%;
+          margin-right: 10px;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .wpcuf-ob-product-info {
+          flex-grow: 1;
+
+          .wpcuf-ob-product-name {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .wpcuf-ob-footer {
+      position: relative;
+      margin-top: 10px;
+      background-color: #f6f6f6;
+      padding: 4px 10px;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -8px;
+        border-right: 4px solid #f6f6f6;
+        border-bottom: 4px solid #f6f6f6;
+        border-left: 4px solid transparent;
+        border-top: 4px solid transparent;
+      }
+
+      .wpcuf-ob-text {
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+}
